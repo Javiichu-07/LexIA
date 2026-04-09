@@ -1,0 +1,21 @@
+# Entorno y Secretos
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Backend: Python & FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Frontend & Dependencias web
+node_modules/
+npm-debug.log
+
+# SO e IDEs
+.DS_Store
+.vscode/
+.idea/
